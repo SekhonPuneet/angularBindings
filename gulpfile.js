@@ -7,7 +7,7 @@ var del = require('del');
 var webserver = require('gulp-webserver');
  
 var paths = {
-  scripts: './js/*.js'
+  scripts: ['./components/*.module.js', './components/*/*.component.js']
 };
  
 // Not all tasks need to use streams 
