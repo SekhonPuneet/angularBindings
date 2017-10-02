@@ -1,2 +1,4 @@
 # angularBindings
-main motive is to teach how bindings works in angular to my friends
+### How to Run
+# npm install
+# npm run start
