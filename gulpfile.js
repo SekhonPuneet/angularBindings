@@ -16,6 +16,7 @@ gulp.task('clean', function() {
   // You can use multiple globbing patterns as you would with `gulp.src` 
   return del(['build']);
 });
+
  
 gulp.task('scripts', ['clean'], function() {
   // Minify and copy all JavaScript (except vendor scripts) 
